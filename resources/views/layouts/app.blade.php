@@ -9,6 +9,7 @@
 
     @vite('resources/css/app.css')
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.3/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('build/app.css') }}">
 
 </head>
 
