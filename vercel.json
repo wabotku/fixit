@@ -14,6 +14,7 @@
         "APP_ENV": "production",
         "APP_DEBUG": "true",
         "APP_URL": "https://fixit-hub.vercel.app",
+        "APP_KEY": "base64:hm9Bf7GQdUb8Hv1CunI6CKlUFGMI1rMjA5I77JhW+hk=",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
