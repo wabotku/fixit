@@ -8,8 +8,4 @@ export default defineConfig({
             refresh: true,
         }),
     ],
-    build: {
-        outDir: "public/build",
-    },
-    base: process.env.APP_URL || "/",
 });
