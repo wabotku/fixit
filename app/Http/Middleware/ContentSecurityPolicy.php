@@ -19,7 +19,7 @@ class ContentSecurityPolicy
         $response = $next($request);
 
         // Tambahkan header Content-Security-Policy
-        $response->headers->set('Content-Security-Policy', "default-src 'self'; style-src 'self' 'unsafe-inline' localhost:*");
+        $response->headers->set('Content-Security-Policy', "default-src 'self'; style-src 'self' 'unsafe-inline' https://fixit-hub.vercel.app;");
 
         return $response;
     }
