@@ -4,6 +4,12 @@
     "functions": {
         "api/index.php": { "runtime": "vercel-php@0.5.4" }
     },
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+        }
+    ],
     "routes": [
         {
             "src": "/(.*)",
