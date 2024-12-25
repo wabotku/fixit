@@ -6,7 +6,7 @@
         "build": "vite build && npm run build:css",
         "preview": "vite preview",
         "build:css": "tailwindcss -i ./resources/css/app.css -o ./public/build/app.css --minify",
-        "vercel-build": "apt-get update && apt-get install -y libssl1.0.2 && your-build-command"
+        "vercel-build": "apt-get update && apt-get install -y libssl1.0.2 && npm run build"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.20",
